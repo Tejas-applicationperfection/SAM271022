@@ -1,0 +1,9 @@
+<apex:page >
+ <div id="option1Page">
+<apex:include pageName="RecordAccess"/>
+</div>
+
+<div id="option2Page">
+ <apex:include pageName="RecordAccess2"/>
+</div>
+</apex:page>

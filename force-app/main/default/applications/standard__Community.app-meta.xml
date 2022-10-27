@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Idea</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Object_Access</tabs>
+    <tabs>Record_Access</tabs>
+    <tabs>Test_Object__c</tabs>
+    <tabs>System_User_Permissions</tabs>
+    <tabs>Data_Dictionary</tabs>
+    <tabs>OWD_Sharing_Report__c</tabs>
+    <tabs>Helper__c</tabs>
+    <tabs>Home</tabs>
+    <tabs>Objects_And_Fields_Log__c</tabs>
+    <tabs>Report_Manager_Object__c</tabs>
+    <tabs>Reports_History_Tracking__c</tabs>
+    <tabs>Tabs_Permission_detail__c</tabs>
+</CustomApplication>

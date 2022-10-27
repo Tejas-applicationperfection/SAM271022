@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Security &amp; Access Manager App in Lightning</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Security &amp; Access Manager</label>
+    <navType>Standard</navType>
+    <tabs>Home</tabs>
+    <tabs>Object_Access</tabs>
+    <tabs>Objects_Fields</tabs>
+    <tabs>Record_Access</tabs>
+    <tabs>Data_Dictionary</tabs>
+    <tabs>Intel</tabs>
+    <tabs>System_Permission</tabs>
+    <tabs>Report_Manager_Pro</tabs>
+    <tabs>Objects_And_Fields_Log__c</tabs>
+    <tabs>Report_Manager_Object__c</tabs>
+    <tabs>Reports_History_Tracking__c</tabs>
+    <tabs>Tabs_Permission_detail__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Security_Access_Manager_UtilityBar</utilityBar>
+</CustomApplication>

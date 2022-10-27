@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+	<aura:attribute name="RecordAccess" type="string" 
+                    default="application-perfection-dev-ed--sa-audit.eu17.visual.force.com"/>
+    <aura:attribute name="RecordAccess2" type="string" 
+                    default="application-perfection-dev-ed--sa-audit.eu17.visual.force.com"/>
+    <div>
+    <iframe aura:id="vfframe" src="{!'https://' + v.RecordAccess + '/apex/RecordAccess'}" style="overflow:visible;  width:100% ; height:100%;" />
+    <iframe aura:id="vfframe" src="{!'https://' + v.RecordAccess2 + '/apex/RecordAccess2'}" height="500px"  width="100%" />
+    </div>
+                    
+</aura:component>

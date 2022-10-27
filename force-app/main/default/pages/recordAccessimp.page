@@ -1,0 +1,7 @@
+<apex:page lightningStylesheets="{!IF($User.UIThemeDisplayed == 'Theme4d',true,false)}" showHeader="true" sidebar="false" docType="html-5.0" readOnly="true">
+    
+    <apex:panelGrid columns="2" id="theGrid">
+       <apex:include pageName="RecordAccess"/> 
+      <apex:include pageName="RecordAccess2"/>
+    </apex:panelGrid>
+</apex:page>
